@@ -25,3 +25,46 @@ Para ejecutar la aplicación, debe tener instalado Java en su máquina y VisualS
 ## Personalización
 
 Para personalizar las matrices A y C, modifique los métodos `getMatrizA()` y `getMatrizC()` en el código fuente para devolver las matrices de su elección.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+¡Por supuesto! Aquí tienes una descripción de uso para un archivo README específico del código de la biblioteca:
+
+# Biblioteca
+
+Este proyecto implementa un sistema de préstamos de libros en una biblioteca. Proporciona una interfaz para dar de alta/baja libros y usuarios, prestar/devolver libros, y realizar diferentes consultas sobre el estado de la biblioteca.
+
+## Características
+
+- Sólo se permiten usuarios de más de 8 años.
+- Los libros tienen título, autor/es, identificador y categoría.
+- Las categorías disponibles son: Aventuras, Ciencia Ficción, Romántica, Historia y Arte.
+- Cada libro tiene una edad recomendada de lectura.
+- Los usuarios solo pueden pedir prestados libros cuya edad recomendada sea inferior o igual a la suya.
+- Pueden existir varias copias de un mismo libro.
+- La información de los libros y los clientes se almacena en archivos.
+
+## Instalación
+
+1. Clona este repositorio en tu máquina local.
+2. Asegúrate de tener Java instalado en tu sistema.
+3. Abre el proyecto en tu entorno de desarrollo preferido.
+
+## Uso
+
+1. Configura la biblioteca: abre el archivo `Main.java` y personaliza la lista de libros y usuarios iniciales según tus necesidades.
+2. Ejecuta el programa.
+3. Utiliza las opciones de menú para realizar diferentes acciones, como dar de alta libros y usuarios, prestar/devolver libros y realizar consultas sobre los libros disponibles.
+
+## Contribución
+
+¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, por favor, envía una solicitud de extracción con tus mejoras o correcciones. Antes de hacerlo, asegúrate de revisar las pautas de contribución.
+
+## Estructura de archivos
+
+- `Main.java`: Contiene el punto de entrada del programa y la lógica principal.
+- `Biblioteca.java`: Define la clase `Biblioteca` que gestiona las operaciones de la biblioteca.
+- `Libro.java`: Define la clase `Libro` que representa un libro en la biblioteca.
+- `Usuario.java`: Define la clase `Usuario` que representa un usuario de la biblioteca.
+- `libros.txt`: Archivo de texto que almacena la información de los libros.
+- `usuarios.txt`: Archivo de texto que almacena la información de los usuarios.
+
